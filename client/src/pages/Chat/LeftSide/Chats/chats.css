@@ -1,0 +1,55 @@
+.chatsContainer {
+  max-width: 360px;
+  border: 1px solid rgb(214, 213, 213);
+  padding: 20px;
+}
+
+.chats-title {
+  font-size: 24px;
+  font-family: inherit;
+}
+
+.SearchInput {
+  margin-top: 10px;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(239, 241, 241);
+  outline: none;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+}
+
+.chat {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.1s;
+}
+
+.chat:hover {
+  background-color: aliceblue;
+}
+
+.about {
+  display: flex;
+  gap: 10px;
+}
+
+.personImage img {
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 13px;
+  color: rgb(99, 99, 99);
+}

@@ -1,0 +1,74 @@
+.rightSide {
+  position: relative;
+  width: 100%;
+}
+
+.section-inner {
+  max-width: 1529px;
+}
+
+.header {
+  padding: 10px;
+  border-bottom: 1px solid rgb(214, 213, 213);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .pesonImg {
+  margin-left: 20px;
+}
+
+.callNav {
+  display: flex;
+  align-items: center;
+  /* gap: 30px; */
+}
+
+.callNav li {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.callNav li:hover {
+  color: #4481eb;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  min-height: 50px;
+  max-height: 150px;
+  bottom: 0;
+  border-top: 1px solid rgb(214, 213, 213);
+  z-index: 3;
+}
+
+.footer form {
+  width: 100%;
+  padding: 10px;
+}
+
+.footer form input {
+  width: 100%;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 15px;
+  background-color: rgb(239, 241, 241);
+  outline: none;
+}
+
+.message-container {
+  display: flex;
+  max-height: 811px;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 20px 10px;
+}
+
+.notMessege {
+  color: rgb(177, 177, 177);
+  text-align: center;
+}

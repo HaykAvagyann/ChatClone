@@ -1,0 +1,39 @@
+{
+  "usersData": [
+    {
+      "id": "1706981497913",
+      "username": "_.hayk,avagyan._",
+      "email": "hayk.avagyan07@gmail.com",
+      "password": "014410",
+      "confirmpassword": "014410"
+    },
+    {
+      "id": "1706982934401",
+      "username": "014hak014",
+      "email": "hayk.avagyan07@gmail.com",
+      "password": "014410",
+      "confirmpassword": "014410"
+    },
+    {
+      "id": "1707052800324",
+      "username": "moso.avagyan04",
+      "email": "moso.avagyan04@gmail.com",
+      "password": "123321",
+      "confirmpassword": "123321"
+    },
+    {
+      "id": "1707161147204",
+      "username": "erik014456",
+      "email": "eric@mail.ru",
+      "password": "014410",
+      "confirmpassword": "014410"
+    }
+  ],
+  "currentUser": {
+    "id": "1706981497913",
+    "username": "_.hayk,avagyan._",
+    "email": "hayk.avagyan07@gmail.com",
+    "password": "014410",
+    "confirmpassword": "014410"
+  }
+}
